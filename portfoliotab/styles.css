@@ -1,0 +1,27 @@
+.portfolio {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.tab-menu{
+    display:flex;
+}
+
+.tab-menu{
+    display: flex;
+}
+.tab-menu button{
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    background-color: aqua;
+    cursor: pointer;
+}
+.tab-menu button.active {
+    background-color: #ddd;
+}
+.tab-content {
+    margin-top: 20px;
+}
+export styles;
